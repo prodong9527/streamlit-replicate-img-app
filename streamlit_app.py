@@ -56,7 +56,7 @@ with st.sidebar:
             high_noise_frac = st.slider(
                 "Fraction of noise to use for `expert_ensemble_refiner`", value=0.8, max_value=1.0, step=0.1)
         prompt = st.text_area(
-            ":orange[**Enter prompt: start typing, Shakespeare ✍🏾**]",
+            ":orange[**填写提示词 ✍🏾**]",
             value="An astronaut riding a rainbow unicorn, cinematic, dramatic")
         negative_prompt = st.text_area(":orange[**Party poopers you don't want in image? 🙅🏽‍♂️**]",
                                        value="the absolute worst quality, distorted features",
