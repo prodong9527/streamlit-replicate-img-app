@@ -36,7 +36,7 @@ gallery_placeholder = st.empty()
 # --- Sidebar Elements --- #
 with st.sidebar:
     with st.form("my_form"):
-        st.info("**Yo fam! Start here ↓**", icon="👋🏾")
+        st.info("**从这开始 ↓**", icon="👋🏾")
         with st.expander(":rainbow[**Refine your output here**]"):
             # Advanced Settings (for the curious minds!)
             width = st.number_input("Width of output image", value=1024)
